@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+</head>
+<body>
+
+        <section class="centro">
+            
+                <form action="">      <div class="tarefatext" for="Inicio">Tarefa</div><br>
+                    
+                
+                    
+                  <div class="cont">
+                        <div>
+                                <div>
+                                        <label for="Data inicio">Data de Inicio</label><br>
+                                        <input id="d_ini" class="inoputdate" type="date"><br>
+                                        
+                                    </div>
+    
+                                    <div>
+                                        <label for="Data fim">Data de fim</label><br>       
+                                        <input id="d_fim" class="inoputdate" type="date"><br>    
+                                    </div>
+    
+                                    <div>
+                                        <label for="Status">Status</label><br>
+                                        <select  name="Status" id="status">
+                                            <option value="Novo">Novo</option>
+                                            <option value="Andamento">Andamento</option>
+                                            <option value="Atrasado">Atasado</option>
+                                        </select>
+                                        
+                            
+                                     </div>
+                                       
+                        </div>
+        
+                        <div>
+                            <label for="text">Descriçao</label><br>
+                           <textarea name="" id="desc" cols="50" rows="5"></textarea>
+        
+                        </div>
+                        <button class="salvar" onclick="save()">Salvar</button>
+                        <button class="cancelar" onclick="limpar()">Cancelar</button>
+                  </div>
+
+                  
+                </form>
+    
+                
+            </section>
+
+        
+
+           <div class="tab">
+                <table border=1 width=385 height=150>
+
+                    <thead>
+                        <th>Data Inicio</th>
+                        <th>Data Fim</th>
+                        <th>Status</th>
+                        <th>Descrição</th>
+                        <th>Opções</th>
+                    </thead>
+
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+            </div>
+            
+            
+    
+                
+    
+    
+    </body>
+    </html>>

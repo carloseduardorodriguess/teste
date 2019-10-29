@@ -1,0 +1,36 @@
+.centro{
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    
+    
+}
+
+.tarefatext{
+    color: red;
+    font-size: 70px;
+    text-align: center;
+    font-family: Comic sans ms;
+}
+
+.inputdate{
+    width: 370px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+.salvar{
+    background-color: green;
+}
+.cancelar{
+   background-color: red;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
